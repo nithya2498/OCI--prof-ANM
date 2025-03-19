@@ -1,0 +1,9 @@
+const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+const cityInput = document.getElementById('cityInput');
+const searchButton = document.getElementById('searchButton');
+const weatherCard = document.querySelector('.weather-card');
+const locationElement = document.getElementById('location');
+const temperatureElement = document.getElementById('temperature');
+const descriptionElement = document.getElementById('description');
+const humidityElement = document.getElementById('humidity');
+const windSpeedElement = document.getElementById('windSpeed');
